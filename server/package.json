@@ -1,5 +1,5 @@
 {
-  "name": "@latest/boardgame",
+  "name": "@full-stack-ts/client",
   "version": "0.0.1",
   "main": "dist/index.js",
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
