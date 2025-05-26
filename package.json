@@ -1,5 +1,5 @@
 {
-  "name": "typescript-template",
+  "name": "full-stack-ts",
   "version": "0.0.0",
   "description": "Mike North's Full Stack TypeScript course",
   "main": "build/index.js",
