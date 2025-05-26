@@ -1,5 +1,5 @@
 {
-  "name": "full-stack-ts",
+  "name": "boardgame",
   "version": "0.0.0",
   "description": "Mike North's Full Stack TypeScript course",
   "main": "build/index.js",
