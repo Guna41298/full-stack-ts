@@ -1,17 +1,17 @@
 {
-  "name": "board-game",
-  "version": "0.0.0",
+  "name": "boardgame",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
-  "license": "NOLICENSE",
+  "license": "MIT",
   "type": "commonjs",
   "private": true,
   "scripts": {
     "build": "tsc -p .",
     "test": "echo 'no server-side tests yet'",
     "codegen": "yarn graphql-codegen",
-    "clean": "yarn rimraf dist",
-    "dev": "yarn concurrently 'yarn nodemon' 'tsc --watch --preserveWatchOutput' -n node,ts -c green.bgBlack,white.bgBlue"
+    "clean": "rimraf dist",
+    "dev": "concurrently \"yarn nodemon\" \"tsc --watch --preserveWatchOutput\" -n node,ts -c green.bgBlack,white.bgBlue"
   },
   "dependencies": {
     "@full-stack-ts/client": "*",
@@ -45,7 +45,7 @@
     "rimraf": "^3.0.2"
   },
   "engines": {
-    "node": "^14.19.1 || >= ^16.0 || >= ^17.0.0"
+    "node": ">=14.19.1"
   },
   "volta": {
     "node": "14.19.1",
