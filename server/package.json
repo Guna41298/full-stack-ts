@@ -1,5 +1,5 @@
 {
-  "name": "full-stack-ts/server",
+  "name": "board-game",
   "version": "0.0.0",
   "main": "dist/index.js",
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
