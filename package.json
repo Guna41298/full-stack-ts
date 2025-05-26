@@ -1,12 +1,11 @@
 {
   "name": "boardgame",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Mike North's Full Stack TypeScript course",
   "main": "build/index.js",
   "repository": "https://github.com/Guna41298/full-stack-ts.git",
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
-  "license": "NOLICENSE",
-  "private": true,
+  "license": "MIT",
   "scripts": {
     "postinstall": "yarn build",
     "lint": "yarn eslint . --ext .ts,.js,.tsx,.jsx",
@@ -45,7 +44,7 @@
     "process": "^0.11.10"
   },
   "engines": {
-    "node": "^14.19.1 || >= ^16.0 || >= ^17.0.0"
+    "node": "^14.19.1 || >=16.0 || >=17.0.0"
   },
   "volta": {
     "node": "14.19.1",
