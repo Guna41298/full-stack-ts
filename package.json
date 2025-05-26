@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Mike North's Full Stack TypeScript course",
   "main": "build/index.js",
-  "repository": "https://github.com/mike-north/full-stack-ts",
+  "repository": "https://github.com/Guna41298/full-stack-ts.git",
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
   "license": "NOLICENSE",
   "private": true,
