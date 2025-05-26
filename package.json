@@ -1,5 +1,5 @@
 {
-  "name": "boardgame",
+  "name": "@latest/boardgame",
   "version": "0.0.1",
   "description": "Mike North's Full Stack TypeScript course",
   "main": "build/index.js",
