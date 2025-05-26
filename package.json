@@ -1,10 +1,11 @@
 {
   "name": "full-stack-ts",
-  "version": "0.0.0",
-  "description": "Mike North's Full Stack TypeScript course",
+  "version": "0.0.1",              // updated from 0.0.0 to 0.0.1 as in second package.json
+  "description": "Sample package", // replaced with second package.json's description
+  "main": "build/index.js",        // added from second package.json
   "repository": "https://github.com/mike-north/full-stack-ts",
-  "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
-  "license": "NOLICENSE",
+  "author": "gunanithi",           // replaced author with second package.json author
+  "license": "MIT",                // replaced license with second package.json license
   "private": true,
   "scripts": {
     "postinstall": "yarn build",
@@ -21,7 +22,7 @@
     "codegen-client": "cd client && yarn codegen",
     "codegen-server": "cd server && yarn codegen",
     "codegen": "concurrently yarn:codegen-* -c cyan,magenta",
-    "build": "yarn build-shared && yarn build-server && yarn build-client",
+    "build": "tsc",                // replaced previous build script with the simple tsc build script
     "test": "concurrently yarn:test-* -c cyan,magenta,yellow",
     "clean": "concurrently yarn:clean-* -c cyan,magenta,yellow",
     "dev": "cd server && yarn dev"
